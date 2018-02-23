@@ -1,0 +1,112 @@
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  margin-top: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  width: 320px;
+  height: 640px;
+}
+
+.col-4 {
+  display: flex;
+  justify-content: center;
+  width: 320px;
+  height: 640px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 320px;
+  height: 640px;
+}
+
+.card-body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  width: 320px;
+  height: 300px;
+}
+
+.card-title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16pt;
+}
+
+.messages {
+  border-radius: 5px;
+  width: 280px;
+  height: 250px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12pt;
+  background-color: rgb(58, 58, 58);
+  color: white;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.message strong {
+  color: #0087F4;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 300px;
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+.username-form {
+  font-size: 12pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: none;
+  outline: none;
+  border-bottom: solid 2px grey;
+}
+
+.username-form:focus {
+  outline: none;
+  border-bottom: solid 2px #0087F4;
+}
+
+.message-form {
+  font-size: 12pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  outline: none;
+  border: solid 2px grey;
+  border-radius: 5px;
+  height: 100px;
+}
+
+.message-form:focus {
+  outline: none;
+  border: solid 2px #0087F4;
+}
+
+.btn {
+  height: 30px;
+  background-color: #0087F4;
+  color: white;
+  border-radius: 1pc;
+  outline: none;
+  font-size: 11pt;
+}
+
+.btn:hover {
+  background-color: #006FC8;
+}
+
+.btn:active {
+  background-color: #003259;
+}
